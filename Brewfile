@@ -47,3 +47,7 @@ cask 'vagrant'
 cask 'virtualbox'
 cask 'vlc'
 cask 'visual-studio-code'
+
+# cleanup
+brew cleanup --force
+rm -f -r /Library/Caches/Homebrew/*
