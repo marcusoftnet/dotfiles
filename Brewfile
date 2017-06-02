@@ -3,6 +3,7 @@ cask_args appdir: '/Applications'
 tap 'homebrew/bundle'
 tap 'caskroom/versions'
 tap 'grammarly/tap'
+tap 'caskroom/fonts' 
 
 brew 'ack'
 brew 'coreutils'
@@ -32,13 +33,14 @@ brew 'youtube-dl'
 
 cask 'alfred'
 cask 'dropbox'
+cask 'font-fira-code'
 cask 'google-chrome'
+cask 'google-photos-backup'
 cask 'grammarly'
 cask 'handbrake'
 cask 'microsoft-office'
 cask 'mapbox-studio'
 cask 'lastpass'
-cask 'seashore'
 cask 'slack'
 cask 'spotify'
 cask 'sublime-text'
@@ -50,5 +52,5 @@ cask 'vlc'
 cask 'visual-studio-code'
 
 # cleanup
-brew cleanup --force
-rm -f -r /Library/Caches/Homebrew/*
+# brew cleanup --force
+# rm -f -r /Library/Caches/Homebrew/*
