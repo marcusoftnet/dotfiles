@@ -31,6 +31,7 @@ brew 'yarn'
 brew 'youtube-dl'
 
 cask 'alfred'
+cask 'avast-mac-security'
 cask 'camtasia'
 cask 'dropbox'
 cask 'font-fira-code'
