@@ -7,6 +7,7 @@ tap 'caskroom/fonts'
 
 brew 'p7zip'
 brew 'ack'
+brew 'awscli'
 brew 'coreutils'
 brew 'docker'
 brew 'go'
