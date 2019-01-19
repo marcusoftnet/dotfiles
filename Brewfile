@@ -40,6 +40,7 @@ brew 'youtube-dl'
 
 cask 'alfred'
 cask 'avast-mac-security'
+cask 'brave'
 cask 'camtasia'
 cask 'docker'
 cask 'dotnet-sdk'
