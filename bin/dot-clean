@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+# dot-clean
+#
+# `dot-clean` removes some cached things
+
+
+# Clean up
+echo "› Clean up brew stuff"
+brew cleanup
+rm -rf $(brew --cache)
