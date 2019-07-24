@@ -1,0 +1,3 @@
+function rmnm () {
+  find $1 -name "node_modules" -exec rm -rf '{}' +
+}
