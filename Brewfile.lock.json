@@ -2,13 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "4852b2de4140b093084fd7999eaa0303bc5882ea"
+        "revision": "c01f464230ba913d4a51d356a80bd52a21fa8caf"
       },
       "caskroom/versions": {
-        "revision": "3b58779459cc7a7740f6865dc462bca1fa510b77"
+        "revision": "ffb2c0eff7f7a6b237f54cfe99cb49d7b708fb97"
       },
       "homebrew/cask-fonts": {
-        "revision": "73a5abdcb048c7234d7c4f69bfe38abf3c693dcd"
+        "revision": "dffcec566e99539f44a0eef812fee18b38c5fb0d"
       },
       "grammarly/tap": {
         "revision": "2e042220f3dcaed8ccb289814e4ea2a86968e7c5"
@@ -47,7 +47,7 @@
         }
       },
       "ack": {
-        "version": "3.3.0",
+        "version": "3.3.1",
         "bottle": false
       },
       "awscli": {
@@ -158,16 +158,16 @@
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/geckodriver-0.26.0.catalina.bottle.tar.gz",
-              "sha256": "e22f2630bb243d2ff0129f1e1807a21d7564563b198f5dcb0f15f9cc2d352c21"
+              "url": "https://homebrew.bintray.com/bottles/geckodriver-0.26.0.catalina.bottle.1.tar.gz",
+              "sha256": "2b9a2eb29b8199df3f0c8e3a4395337fcdd1ae00cea28970df0add10a36b94ce"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/geckodriver-0.26.0.mojave.bottle.tar.gz",
-              "sha256": "dc64495740d253d396aa2be1442dbcab5ad82b95b37f28c65eb724394e302ea7"
+              "url": "https://homebrew.bintray.com/bottles/geckodriver-0.26.0.mojave.bottle.1.tar.gz",
+              "sha256": "13dd973454d187da00ccd4ab24f72987ea47f4984caa2e1fa5b3c36273d96bfa"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/geckodriver-0.26.0.high_sierra.bottle.tar.gz",
-              "sha256": "aa4813eced6f47bf448a0f19ff1f73abc109122613a92aef6b217237020eba01"
+              "url": "https://homebrew.bintray.com/bottles/geckodriver-0.26.0.high_sierra.bottle.1.tar.gz",
+              "sha256": "2e57ba33554f7b0180873d49dc8dc1b1587e9c8d637d8f50146395dcb923afea"
             }
           }
         }
@@ -219,22 +219,22 @@
         }
       },
       "hub": {
-        "version": "2.13.0",
+        "version": "2.14.1",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/hub-2.13.0.catalina.bottle.1.tar.gz",
-              "sha256": "ecb167b7862314de59c67deb9c8dcbcec17ff78cc949cd7ce8309efb9f269e1e"
+              "url": "https://homebrew.bintray.com/bottles/hub-2.14.1.catalina.bottle.tar.gz",
+              "sha256": "f092116bb42f4149b0a2abb25ee1752eec32923fe9bd0772607404b3da86e866"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/hub-2.13.0.mojave.bottle.1.tar.gz",
-              "sha256": "22e8f62a10d5b985760ca626506b32a31c5a8f298df40a0560e034c7193c5bca"
+              "url": "https://homebrew.bintray.com/bottles/hub-2.14.1.mojave.bottle.tar.gz",
+              "sha256": "671f391bbbd66507a7a9f871ee7222326eb54471478a2e5e1e6122cb58534425"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/hub-2.13.0.high_sierra.bottle.1.tar.gz",
-              "sha256": "b44b83e821252707efd46b4d1b2920b34a540977941061280a148cf90f4b8e1d"
+              "url": "https://homebrew.bintray.com/bottles/hub-2.14.1.high_sierra.bottle.tar.gz",
+              "sha256": "bb9269b14335df7a77cbe8072df072471c980b497c06f33b603744a60fc09d95"
             }
           }
         }
@@ -432,7 +432,7 @@
         }
       },
       "ruby-build": {
-        "version": "20191225",
+        "version": "20200115",
         "bottle": false
       },
       "rbenv": {
@@ -639,7 +639,7 @@
         }
       },
       "youtube-dl": {
-        "version": "2020.01.01",
+        "version": "2020.01.15",
         "bottle": false
       }
     },
@@ -709,7 +709,7 @@
         }
       },
       "dotnet-sdk": {
-        "version": "3.1.100,787e81f1-f0da-4e3b-a989-8a199132ed8c:61a8dba81fbf2b3d533562d7b96443ec",
+        "version": "3.1.101,749db4bc-73c3-4ffb-a545-c315dc9a0ca8:5281258f5dcae636efe557b8b305e20b",
         "options": {
           "args": {
             "appdir": "/Applications"
@@ -797,7 +797,7 @@
         }
       },
       "java": {
-        "version": "13.0.1,9:cec27d702aa74d5a8630c65ae61e4305",
+        "version": "13.0.2,8:d4173c853231432d94f001e99d882ca7",
         "options": {
           "args": {
             "appdir": "/Applications"
@@ -813,7 +813,7 @@
         }
       },
       "kindle": {
-        "version": "55093",
+        "version": "56108",
         "options": {
           "args": {
             "appdir": "/Applications"
@@ -949,7 +949,23 @@
         }
       },
       "virtualbox": {
-        "version": "6.1.0,135406",
+        "version": "6.1.2,135662",
+        "options": {
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "postman": {
+        "version": "7.14.0",
+        "options": {
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "azure-data-studio": {
+        "version": "1.14.1",
         "options": {
           "args": {
             "appdir": "/Applications"
@@ -969,10 +985,10 @@
         "macOS": "10.14.6"
       },
       "catalina": {
-        "HOMEBREW_VERSION": "2.2.2",
+        "HOMEBREW_VERSION": "2.2.4",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "511a4e71a0e8462579da11894e35d30919a1259b",
-        "CLT": "11.3.0.0.1.1574140115",
+        "Homebrew/homebrew-core": "07fcb96b558b7ad18f36a9ba9a90752822fe988e",
+        "CLT": "11.3.1.0.1.1576735732",
         "Xcode": "11.3",
         "macOS": "10.15.2"
       }
