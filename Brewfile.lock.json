@@ -2,13 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "6d2f307b918355df929b94b4cf5507603e802a21"
+        "revision": "865ec948c2da02fe9c7bedd669571f7a012e1ace"
       },
       "caskroom/versions": {
-        "revision": "00cc238532e366f7d3c68f6e7b773d07dd65c36e"
+        "revision": "b5c09a5e05a63359b3069e8609517a209dd571b3"
       },
       "homebrew/cask-fonts": {
-        "revision": "783ef17621b10966ce78c8387faa38babca5d280"
+        "revision": "65d6483e1560ecb017d16451a991394040f9256f"
       },
       "grammarly/tap": {
         "revision": "2e042220f3dcaed8ccb289814e4ea2a86968e7c5"
@@ -17,7 +17,7 @@
         "revision": "af974c4e8412220b5e0a7e8ff150287dd64ba7c1"
       },
       "mongodb/brew": {
-        "revision": "5772ff848a3ad44d92bb3ccdb6c487ff96f6a5cb"
+        "revision": "57adadbee35687d38097d3206e9dd09f03031225"
       }
     },
     "brew": {
@@ -328,7 +328,7 @@
         }
       },
       "mongodb-community": {
-        "version": "4.2.2",
+        "version": "4.2.3",
         "bottle": false
       },
       "nvm": {
@@ -597,22 +597,22 @@
         }
       },
       "unrar": {
-        "version": "5.8.5",
+        "version": "5.9.1",
         "bottle": {
           "cellar": ":any",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/unrar-5.8.5.catalina.bottle.tar.gz",
-              "sha256": "555a39a080ba65da9f8d4a5c02fc95eb810221f9e88dfb741261ce32622e7a00"
+              "url": "https://homebrew.bintray.com/bottles/unrar-5.9.1.catalina.bottle.tar.gz",
+              "sha256": "778a5ef87bc4c4f0c76ad4c774451c2aa03692a7555780e07dd02fdd17e5d961"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/unrar-5.8.5.mojave.bottle.tar.gz",
-              "sha256": "c2011afe36f228c13123bbe3c4a777439f353c5b183313160f0118b79d3af417"
+              "url": "https://homebrew.bintray.com/bottles/unrar-5.9.1.mojave.bottle.tar.gz",
+              "sha256": "8f50cbc0555c19d451f85fbbaaf081586bf9f0bdf788f53c6041aacc7be2bf25"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/unrar-5.8.5.high_sierra.bottle.tar.gz",
-              "sha256": "cb838a0e04135acb5b7bd0e92f7a73371208c407c8abeaf0c42b60ae367b609d"
+              "url": "https://homebrew.bintray.com/bottles/unrar-5.9.1.high_sierra.bottle.tar.gz",
+              "sha256": "dd7813a21417cdc5741ca03dfb51bbcf104d1e7430c487aa82012c709d4c70e7"
             }
           }
         }
@@ -647,6 +647,7 @@
       "alfred": {
         "version": "4.0.4_1111",
         "options": {
+          "full_name": "alfred",
           "args": {
             "appdir": "/Applications"
           }
@@ -655,6 +656,7 @@
       "avast-security": {
         "version": "latest",
         "options": {
+          "full_name": "avast-security",
           "args": {
             "appdir": "/Applications"
           }
@@ -663,6 +665,7 @@
       "brave-browser": {
         "version": "0.63.48",
         "options": {
+          "full_name": "brave-browser",
           "args": {
             "appdir": "/Applications"
           }
@@ -671,6 +674,7 @@
       "camtasia": {
         "version": "2019.0.0",
         "options": {
+          "full_name": "camtasia",
           "args": {
             "appdir": "/Applications"
           }
@@ -679,6 +683,7 @@
       "calibre": {
         "version": "4.9.1",
         "options": {
+          "full_name": "calibre",
           "args": {
             "appdir": "/Applications"
           }
@@ -687,6 +692,7 @@
       "chromedriver": {
         "version": "79.0.3945.36",
         "options": {
+          "full_name": "chromedriver",
           "args": {
             "appdir": "/Applications"
           }
@@ -695,6 +701,7 @@
       "deckset": {
         "version": "2.0.13,2551",
         "options": {
+          "full_name": "deckset",
           "args": {
             "appdir": "/Applications"
           }
@@ -703,6 +710,7 @@
       "docker": {
         "version": "2.0.0.3-ce-mac81,31259",
         "options": {
+          "full_name": "docker",
           "args": {
             "appdir": "/Applications"
           }
@@ -711,6 +719,7 @@
       "dotnet-sdk": {
         "version": "3.1.101,749db4bc-73c3-4ffb-a545-c315dc9a0ca8:5281258f5dcae636efe557b8b305e20b",
         "options": {
+          "full_name": "dotnet-sdk",
           "args": {
             "appdir": "/Applications"
           }
@@ -719,6 +728,7 @@
       "dropbox": {
         "version": "latest",
         "options": {
+          "full_name": "dropbox",
           "args": {
             "appdir": "/Applications"
           }
@@ -727,6 +737,7 @@
       "font-fira-code": {
         "version": "2",
         "options": {
+          "full_name": "font-fira-code",
           "args": {
             "appdir": "/Applications"
           }
@@ -735,6 +746,7 @@
       "font-inconsolata": {
         "version": "latest",
         "options": {
+          "full_name": "font-inconsolata",
           "args": {
             "appdir": "/Applications"
           }
@@ -743,6 +755,7 @@
       "fork": {
         "version": "1.0.78.1",
         "options": {
+          "full_name": "fork",
           "args": {
             "appdir": "/Applications"
           }
@@ -751,6 +764,7 @@
       "firefox": {
         "version": "66.0.4",
         "options": {
+          "full_name": "firefox",
           "args": {
             "appdir": "/Applications"
           }
@@ -759,6 +773,7 @@
       "google-backup-and-sync": {
         "version": "latest",
         "options": {
+          "full_name": "google-backup-and-sync",
           "args": {
             "appdir": "/Applications"
           }
@@ -767,6 +782,7 @@
       "google-chrome": {
         "version": "74.0.3729.131",
         "options": {
+          "full_name": "google-chrome",
           "args": {
             "appdir": "/Applications"
           }
@@ -775,6 +791,7 @@
       "google-cloud-sdk": {
         "version": "latest",
         "options": {
+          "full_name": "google-cloud-sdk",
           "args": {
             "appdir": "/Applications"
           }
@@ -783,6 +800,7 @@
       "grammarly": {
         "version": "latest",
         "options": {
+          "full_name": "grammarly",
           "args": {
             "appdir": "/Applications"
           }
@@ -791,6 +809,7 @@
       "handbrake": {
         "version": "1.2.2",
         "options": {
+          "full_name": "handbrake",
           "args": {
             "appdir": "/Applications"
           }
@@ -799,6 +818,7 @@
       "java": {
         "version": "13.0.2,8:d4173c853231432d94f001e99d882ca7",
         "options": {
+          "full_name": "java",
           "args": {
             "appdir": "/Applications"
           }
@@ -807,6 +827,7 @@
       "keycastr": {
         "version": "0.9.8",
         "options": {
+          "full_name": "keycastr",
           "args": {
             "appdir": "/Applications"
           }
@@ -815,6 +836,7 @@
       "kindle": {
         "version": "56108",
         "options": {
+          "full_name": "kindle",
           "args": {
             "appdir": "/Applications"
           }
@@ -823,6 +845,7 @@
       "microsoft-office": {
         "version": "16.24.19041401",
         "options": {
+          "full_name": "microsoft-office",
           "args": {
             "appdir": "/Applications"
           }
@@ -839,6 +862,7 @@
       "omnidisksweeper": {
         "version": "1.12",
         "options": {
+          "full_name": "omnidisksweeper",
           "args": {
             "appdir": "/Applications"
           }
@@ -847,6 +871,7 @@
       "pgadmin4": {
         "version": "4.17",
         "options": {
+          "full_name": "pgAdmin4",
           "args": {
             "appdir": "/Applications"
           }
@@ -855,6 +880,7 @@
       "robo-3t": {
         "version": "1.3.1,7419c40",
         "options": {
+          "full_name": "robo-3t",
           "args": {
             "appdir": "/Applications"
           }
@@ -863,6 +889,7 @@
       "slack": {
         "version": "3.4.0",
         "options": {
+          "full_name": "slack",
           "args": {
             "appdir": "/Applications"
           }
@@ -871,6 +898,7 @@
       "skype": {
         "version": "8.44.0.40",
         "options": {
+          "full_name": "skype",
           "args": {
             "appdir": "/Applications"
           }
@@ -879,6 +907,7 @@
       "spotify": {
         "version": "latest",
         "options": {
+          "full_name": "spotify",
           "args": {
             "appdir": "/Applications"
           }
@@ -887,6 +916,7 @@
       "spectacle": {
         "version": "1.2",
         "options": {
+          "full_name": "spectacle",
           "args": {
             "appdir": "/Applications"
           }
@@ -895,6 +925,7 @@
       "sublime-text": {
         "version": "3.207",
         "options": {
+          "full_name": "sublime-text",
           "args": {
             "appdir": "/Applications"
           }
@@ -903,6 +934,7 @@
       "transmission": {
         "version": "2.94",
         "options": {
+          "full_name": "transmission",
           "args": {
             "appdir": "/Applications"
           }
@@ -911,6 +943,7 @@
       "typora": {
         "version": "0.9.9.24.6",
         "options": {
+          "full_name": "typora",
           "args": {
             "appdir": "/Applications"
           }
@@ -919,6 +952,7 @@
       "vagrant": {
         "version": "2.2.7",
         "options": {
+          "full_name": "vagrant",
           "args": {
             "appdir": "/Applications"
           }
@@ -927,6 +961,7 @@
       "vlc": {
         "version": "3.0.6",
         "options": {
+          "full_name": "vlc",
           "args": {
             "appdir": "/Applications"
           }
@@ -935,6 +970,7 @@
       "visual-studio-code": {
         "version": "1.33.1,51b0b28134d51361cf996d2f0a1c698247aeabd8",
         "options": {
+          "full_name": "visual-studio-code",
           "args": {
             "appdir": "/Applications"
           }
@@ -943,6 +979,7 @@
       "zoomus": {
         "version": "4.4.52595.0425",
         "options": {
+          "full_name": "zoomus",
           "args": {
             "appdir": "/Applications"
           }
@@ -951,6 +988,7 @@
       "virtualbox": {
         "version": "6.1.2,135662",
         "options": {
+          "full_name": "virtualbox",
           "args": {
             "appdir": "/Applications"
           }
@@ -959,6 +997,7 @@
       "postman": {
         "version": "7.14.0",
         "options": {
+          "full_name": "postman",
           "args": {
             "appdir": "/Applications"
           }
@@ -967,6 +1006,7 @@
       "azure-data-studio": {
         "version": "1.14.1",
         "options": {
+          "full_name": "azure-data-studio",
           "args": {
             "appdir": "/Applications"
           }
@@ -987,10 +1027,10 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.2.4",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "f28ccab881edd703d4f53fdac9661696f0f414d6",
-        "CLT": "11.3.1.0.1.1576735732",
+        "Homebrew/homebrew-core": "6f57375d0f4dbb1f80fb84cd176403c7ae57cb02",
+        "CLT": "11.0.33.17",
         "Xcode": "11.3",
-        "macOS": "10.15.2"
+        "macOS": "10.15.3"
       }
     }
   }
