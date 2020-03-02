@@ -2,10 +2,10 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "0796bb72fa0b6615cdb51d0ec07ca405e4550870"
+        "revision": "ec62daa9d5c1889082a54861f6028ddaa5834489"
       },
       "caskroom/versions": {
-        "revision": "0ef4b38f40aa063b6eb65b1f83bf8249af74093a"
+        "revision": "6bea2219260ba361c19fc3b5825e21a2451f89a6"
       },
       "homebrew/cask-fonts": {
         "revision": "4b639dae64056fa794ddc593cb2e2f7fd7ee5f16"
@@ -18,6 +18,9 @@
       },
       "mongodb/brew": {
         "revision": "90902fda25a4f1a5a1d809df01adbe2b579791aa"
+      },
+      "oncletom/brew": {
+        "revision": "6a3d58333d73326f92f053b3159d09099bb0e1dc"
       }
     },
     "brew": {
@@ -630,7 +633,11 @@
         "version": "2020.02.16",
         "bottle": false
       },
-      "python3": null
+      "python3": null,
+      "cpdf": {
+        "version": "2.2.1",
+        "bottle": false
+      }
     },
     "cask": {
       "alfred": {
@@ -1014,9 +1021,9 @@
         "macOS": "10.14.6"
       },
       "catalina": {
-        "HOMEBREW_VERSION": "2.2.6",
+        "HOMEBREW_VERSION": "2.2.7",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "009cb701bac2aaf6f1c100443a7c545d07f9d0c1",
+        "Homebrew/homebrew-core": "3ba0438784e7ccfa7e2bb3e5cde31516eb99b6ab",
         "CLT": "11.3.1.0.1.1576735732",
         "Xcode": "11.3",
         "macOS": "10.15.3"
