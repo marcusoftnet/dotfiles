@@ -2,13 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "2951772d594fb8ba9daf1ae1123831fd03edcb69"
+        "revision": "40fb8097408f458e4ad6df168f28c9ebb01d587f"
       },
       "caskroom/versions": {
-        "revision": "70c5a65d704c769ee882a3b00f60553f99250665"
+        "revision": "3b3b2dbeb2b44b74d87d609fc50351e9c4672d81"
       },
       "homebrew/cask-fonts": {
-        "revision": "57fc91532681f3fa7b3a269ede09ac821da8c931"
+        "revision": "9c83ccaf81375d5d0349ef8c3fe682d955c42aec"
       },
       "grammarly/tap": {
         "revision": "2e042220f3dcaed8ccb289814e4ea2a86968e7c5"
@@ -17,7 +17,7 @@
         "revision": "35191947cd09fb4e0a28f8b9dad569b535e2daa7"
       },
       "mongodb/brew": {
-        "revision": "7ee43ef05acf1c7e9b8645e6509739c5bfaa4677"
+        "revision": "12da8456bc6bc28d01a920392e76a2194eb00100"
       },
       "oncletom/brew": {
         "revision": "e98bc8474505193cf6723ae6206199a8eb7e5f21"
@@ -294,16 +294,16 @@
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.10-0.catalina.bottle.tar.gz",
-              "sha256": "8fccf96b75ef14b43481112edd6997bbe9f13e94efee587cfe1a824e3afc1f93"
+              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.10-0.catalina.bottle.1.tar.gz",
+              "sha256": "ab050b8532daa7b5d7c3d177e566360be1f92d6b9ef614e8c9623e39959730b6"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.10-0.mojave.bottle.tar.gz",
-              "sha256": "398e87821c985d3c861d1c6190f1b151597136f224e4df9027047e45094d312c"
+              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.10-0.mojave.bottle.1.tar.gz",
+              "sha256": "17cb577b4b0ddef9a824756e0cb4e1ac94969ee54e8e5bf28fb3d5e4683c3ab0"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.10-0.high_sierra.bottle.tar.gz",
-              "sha256": "523e06bebec577e14fc2b4d939ec8129b30f9d118a12bb80f55979a3a4965619"
+              "url": "https://homebrew.bintray.com/bottles/imagemagick-7.0.10-0.high_sierra.bottle.1.tar.gz",
+              "sha256": "8b0650b7d470832054a71a8261f79998ce2b9c18f999fb4d027bd9a0424b16e4"
             }
           }
         }
@@ -334,7 +334,7 @@
         }
       },
       "mongodb-community": {
-        "version": "4.2.3",
+        "version": "4.2.5",
         "bottle": false
       },
       "nvm": {
@@ -1049,7 +1049,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.2.11",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "e7f9346064d5969e6c4752c80bad5efca14550c6",
+        "Homebrew/homebrew-core": "5ab9766e70776ef1702f8d40c8ef5159252c31be",
         "CLT": "1103.0.32.29",
         "Xcode": "11.3",
         "macOS": "10.15.4"
