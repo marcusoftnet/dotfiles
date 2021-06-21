@@ -8,7 +8,7 @@
         "revision": "f0b356efc360d565ab33dac314fa33f151545447"
       },
       "homebrew/cask-fonts": {
-        "revision": "3f84f17e76a170d47c846fc71e2c777d8c919182"
+        "revision": "cc8aa7a9ccbd82633b073ab5b241e2d79e511997"
       },
       "grammarly/tap": {
         "revision": "2e042220f3dcaed8ccb289814e4ea2a86968e7c5"
@@ -1414,6 +1414,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "love": {
+        "version": "11.3",
+        "options": {
+          "full_name": "love",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     }
   },
@@ -1438,7 +1447,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.1.12",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "3bc104795d8fcd381e828c12ce8adf00f9487152",
+        "Homebrew/homebrew-core": "94b18c777fedf61296c8700fad0e45c2d587ab7f",
         "CLT": "12.5.0.22.9",
         "Xcode": "12.5",
         "macOS": "11.4"
