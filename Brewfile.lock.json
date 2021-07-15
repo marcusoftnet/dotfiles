@@ -8,7 +8,7 @@
         "revision": "f0b356efc360d565ab33dac314fa33f151545447"
       },
       "homebrew/cask-fonts": {
-        "revision": "856b6ef929586f44cac223e1c986e2fa08cd1d8e"
+        "revision": "eaa98fd375535986338801a4f9d9f6e1502964a0"
       },
       "grammarly/tap": {
         "revision": "2e042220f3dcaed8ccb289814e4ea2a86968e7c5"
@@ -20,7 +20,7 @@
         "revision": "5548090ce600fe0e60e1abe7aa5926c95d5deb72"
       },
       "oncletom/brew": {
-        "revision": "e707b1f7249c713a76b506640de17106934faa76"
+        "revision": "ae3b90e9fda663e881f18e1c269b0756619f8511"
       },
       "github/gh": {
         "revision": "2c58807afd6ebc52c4499487302b758b72ddac8a"
@@ -407,6 +407,11 @@
               "cellar": ":any_skip_relocation",
               "url": "https://ghcr.io/v2/homebrew/core/elm/blobs/sha256:a826ba1bd9a92f3a5384a772533bf90c8d87e5f6c4ca8f30a6877c10ee9bab2f",
               "sha256": "a826ba1bd9a92f3a5384a772533bf90c8d87e5f6c4ca8f30a6877c10ee9bab2f"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/elm/blobs/sha256:810bfd7c5a40e9c6f4bae78af527acf2df4fbea11bc1af632526e90429fb68e0",
+              "sha256": "810bfd7c5a40e9c6f4bae78af527acf2df4fbea11bc1af632526e90429fb68e0"
             }
           }
         }
@@ -1031,7 +1036,7 @@
         }
       },
       "cpdf": {
-        "version": "2.3.1",
+        "version": "2.4",
         "bottle": false
       },
       "github/gh/gh": null,
@@ -1376,7 +1381,7 @@
         }
       },
       "spotify": {
-        "version": "1.1.62.583.gdac868ed,1.1.62.583.gdac868ed-44",
+        "version": "1.1.63.568.gda8cb5ac,1.1.63.568.gda8cb5ac-26",
         "options": {
           "full_name": "spotify",
           "args": {
@@ -1466,7 +1471,7 @@
         }
       },
       "postman": {
-        "version": "8.7.0",
+        "version": "8.8.0",
         "options": {
           "full_name": "postman",
           "args": {
@@ -1518,6 +1523,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "cleanmymac": {
+        "version": "4.8.5,40805.0.2106230919",
+        "options": {
+          "full_name": "cleanmymac",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     }
   },
@@ -1540,9 +1554,9 @@
         "macOS": "10.15.7"
       },
       "big_sur": {
-        "HOMEBREW_VERSION": "3.2.1",
+        "HOMEBREW_VERSION": "3.2.2",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "b39ce749cc65be2e3c1cc7d40ab8066923c73961",
+        "Homebrew/homebrew-core": "02ac8216f10bc9d9cc85a0e46aa74a282382b292",
         "CLT": "12.5.0.22.9",
         "Xcode": "12.5.1",
         "macOS": "11.4"
