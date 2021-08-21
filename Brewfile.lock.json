@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "699eea181e1550b5d0245b9293dcedb78683626d"
+        "revision": "92d4ca875795aae84ef5fb6f5a7e217ef8854bc2"
       },
       "caskroom/versions": {
         "revision": "f0b356efc360d565ab33dac314fa33f151545447"
@@ -14,7 +14,7 @@
         "revision": "2e042220f3dcaed8ccb289814e4ea2a86968e7c5"
       },
       "aws/tap": {
-        "revision": "295a0cdf27ffbe3de72b4fe152fcbeb936f1ae4b"
+        "revision": "042c98ef7af979e81426882cb7438b5f86bc19c5"
       },
       "mongodb/brew": {
         "revision": "d53b04f7ef6de644fb02cc33b9901abf233a4eb0"
@@ -76,54 +76,54 @@
         }
       },
       "awscli": {
-        "version": "2.2.29",
+        "version": "2.2.30_1",
         "bottle": {
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
             "arm64_big_sur": {
               "cellar": ":any",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:19364fbe65b7f3fac44ea621412b7e389bd225fd11e8099914fd6d5f7d3dccb7",
-              "sha256": "19364fbe65b7f3fac44ea621412b7e389bd225fd11e8099914fd6d5f7d3dccb7"
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:7fe8716b0d9b09a9a0815162ac4fe0e272f50dd6de887716ec5814a5efa1f987",
+              "sha256": "7fe8716b0d9b09a9a0815162ac4fe0e272f50dd6de887716ec5814a5efa1f987"
             },
             "big_sur": {
-              "cellar": "/usr/local/Cellar",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:ffc831baf9fa927754ca16b955a8ba4878a2a1bd54d39d3390ba838434e4dc11",
-              "sha256": "ffc831baf9fa927754ca16b955a8ba4878a2a1bd54d39d3390ba838434e4dc11"
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:4d5d95a55b0cf5381901d6421b4804649849c40e02496f9a3460d54750d7572a",
+              "sha256": "4d5d95a55b0cf5381901d6421b4804649849c40e02496f9a3460d54750d7572a"
             },
             "catalina": {
-              "cellar": "/usr/local/Cellar",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:38c5cd01cf4f126c7448922de16b72d98691ea72c474e8cfdecf1c7091cff67b",
-              "sha256": "38c5cd01cf4f126c7448922de16b72d98691ea72c474e8cfdecf1c7091cff67b"
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:5ce7c56c2383a89aa80f8d8812b2c8fd5aa1fdd47a0d603bd42ea04c212a06c6",
+              "sha256": "5ce7c56c2383a89aa80f8d8812b2c8fd5aa1fdd47a0d603bd42ea04c212a06c6"
             },
             "mojave": {
-              "cellar": "/usr/local/Cellar",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:7cb713aaba7111b949092aae574a9ec323ef0b67708b5bb08043760d5cd45a84",
-              "sha256": "7cb713aaba7111b949092aae574a9ec323ef0b67708b5bb08043760d5cd45a84"
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:fc20f050881a15147a7cd09c34b6cfb3f674cb7d5447ba0f56a4eb4e1cd47677",
+              "sha256": "fc20f050881a15147a7cd09c34b6cfb3f674cb7d5447ba0f56a4eb4e1cd47677"
             },
             "x86_64_linux": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:014d3f697fd6f83e7056b286ea7c26e78032d21279061df4e151774752b090cd",
-              "sha256": "014d3f697fd6f83e7056b286ea7c26e78032d21279061df4e151774752b090cd"
+              "url": "https://ghcr.io/v2/homebrew/core/awscli/blobs/sha256:e41015a6318cd03c04ce292fe748337aa722218ba078b33ed96e8a75d9e2cc29",
+              "sha256": "e41015a6318cd03c04ce292fe748337aa722218ba078b33ed96e8a75d9e2cc29"
             }
           }
         }
       },
       "aws-sam-cli": {
-        "version": "1.27.2",
+        "version": "1.29.0",
         "bottle": {
           "rebuild": 0,
-          "root_url": "https://github.com/aws/aws-sam-cli/releases/download/v1.27.2/",
+          "root_url": "https://github.com/aws/aws-sam-cli/releases/download/v1.29.0/",
           "files": {
             "sierra": {
               "cellar": ":any_skip_relocation",
-              "url": "https://github.com/aws/aws-sam-cli/releases/download/v1.27.2//aws-sam-cli-1.27.2.sierra.bottle.tar.gz",
-              "sha256": "ab73688686cf85322772453ccd48196f579f1e3da6720723578218416ba1e310"
+              "url": "https://github.com/aws/aws-sam-cli/releases/download/v1.29.0//aws-sam-cli-1.29.0.sierra.bottle.tar.gz",
+              "sha256": "72c1831c330870be4beb4a76f1623afe09e5f5325a5fd29ac0e846adbd05d174"
             },
             "x86_64_linux": {
               "cellar": ":any_skip_relocation",
-              "url": "https://github.com/aws/aws-sam-cli/releases/download/v1.27.2//aws-sam-cli-1.27.2.x86_64_linux.bottle.tar.gz",
-              "sha256": "995cb19b1d2bd10ca8aef29ab36e263857a4a6d8631931fc96ca92700cd5f14e"
+              "url": "https://github.com/aws/aws-sam-cli/releases/download/v1.29.0//aws-sam-cli-1.29.0.x86_64_linux.bottle.tar.gz",
+              "sha256": "863fa8b04fab26a6e41bf513ac845a8ed653a45144e63450440fcd6dff82bd81"
             }
           }
         }
@@ -1159,7 +1159,7 @@
         }
       },
       "brave-browser": {
-        "version": "1.28.105.0,128.105",
+        "version": "1.28.106.0,128.106",
         "options": {
           "full_name": "brave-browser",
           "args": {
@@ -1168,7 +1168,7 @@
         }
       },
       "camtasia": {
-        "version": "2021.0.2",
+        "version": "2021.0.4",
         "options": {
           "full_name": "camtasia",
           "args": {
@@ -1222,7 +1222,7 @@
         }
       },
       "dropbox": {
-        "version": "128.4.2870",
+        "version": "129.4.3571",
         "options": {
           "full_name": "dropbox",
           "args": {
@@ -1258,7 +1258,7 @@
         }
       },
       "firefox": {
-        "version": "91.0",
+        "version": "91.0.1",
         "options": {
           "full_name": "firefox",
           "args": {
@@ -1276,7 +1276,7 @@
         }
       },
       "google-chrome": {
-        "version": "92.0.4515.131",
+        "version": "92.0.4515.159",
         "options": {
           "full_name": "google-chrome",
           "args": {
@@ -1294,7 +1294,7 @@
         }
       },
       "grammarly": {
-        "version": "1.5.75",
+        "version": "1.5.76",
         "options": {
           "full_name": "grammarly",
           "args": {
@@ -1303,7 +1303,7 @@
         }
       },
       "handbrake": {
-        "version": "1.4.0",
+        "version": "1.4.1",
         "options": {
           "full_name": "handbrake",
           "args": {
@@ -1402,7 +1402,7 @@
         }
       },
       "spotify": {
-        "version": "1.1.65.643.g2d707698,1.1.65.643.g2d707698-28",
+        "version": "1.1.66.578.gc54d0f69,1.1.66.578.gc54d0f69-15",
         "options": {
           "full_name": "spotify",
           "args": {
@@ -1438,7 +1438,7 @@
         }
       },
       "typora": {
-        "version": "0.11.4",
+        "version": "0.11.5",
         "options": {
           "full_name": "typora",
           "args": {
@@ -1465,7 +1465,7 @@
         }
       },
       "visual-studio-code": {
-        "version": "1.59.0",
+        "version": "1.59.1",
         "options": {
           "full_name": "visual-studio-code",
           "args": {
@@ -1501,7 +1501,7 @@
         }
       },
       "azure-data-studio": {
-        "version": "1.31.1",
+        "version": "1.32.0",
         "options": {
           "full_name": "azure-data-studio",
           "args": {
@@ -1528,7 +1528,7 @@
         }
       },
       "zoom": {
-        "version": "5.7.5.1123",
+        "version": "5.7.6.1320",
         "options": {
           "full_name": "zoom",
           "args": {
@@ -1575,12 +1575,12 @@
         "macOS": "10.15.7"
       },
       "big_sur": {
-        "HOMEBREW_VERSION": "3.2.6",
+        "HOMEBREW_VERSION": "3.2.8",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "79ae2c5a35efcfba359977588071702f1da36a96",
+        "Homebrew/homebrew-core": "b2ea9079dfedc37423f2778e08887570a62de3a6",
         "CLT": "12.5.0.22.9",
         "Xcode": "12.5.1",
-        "macOS": "11.5.1"
+        "macOS": "11.5.2"
       }
     }
   }
