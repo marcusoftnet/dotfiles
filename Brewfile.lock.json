@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "ca598bfea38d2a0e0316662807d58fca18169e22"
+        "revision": "44a1e064d0cf9c3ef8d1820be7988f762f222cf5"
       },
       "caskroom/versions": {
         "revision": "f0b356efc360d565ab33dac314fa33f151545447"
@@ -17,13 +17,16 @@
         "revision": "bb9b2719388fbff11f43ed644b45385441492ce4"
       },
       "mongodb/brew": {
-        "revision": "a6fc17705f0147978542b917f065179a2b0d6f93"
+        "revision": "9c50d2ebbc52e388cbe4e8ec58924223b719ca7b"
       },
       "oncletom/brew": {
         "revision": "b3d2509532aca316f586be9aa080fb2e95fbfc1f"
       },
       "github/gh": {
         "revision": "2c58807afd6ebc52c4499487302b758b72ddac8a"
+      },
+      "isen-ng/dotnet-sdk-versions": {
+        "revision": "5f0cb0920f5dd8b4cabaf61409acda0d86a6b967"
       }
     },
     "brew": {
@@ -585,7 +588,7 @@
         }
       },
       "mongodb-community": {
-        "version": "5.0.3",
+        "version": "5.0.4",
         "bottle": false
       },
       "nvm": {
@@ -1583,7 +1586,7 @@
         }
       },
       "skype": {
-        "version": "8.78.0.159",
+        "version": "8.79.0.92",
         "options": {
           "full_name": "skype",
           "args": {
@@ -1752,6 +1755,15 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "dotnet-sdk5-0-400": {
+        "version": "5.0.403,5.0.12",
+        "options": {
+          "full_name": "dotnet-sdk5-0-400",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     }
   },
@@ -1784,8 +1796,8 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.3.6",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "2be09b273add2a7e922957de3c8253723e59d0c1",
-        "CLT": "12.5.0.22.9",
+        "Homebrew/homebrew-core": "5ab7e217f110eef4f2a1843b6d470c066eaea88e",
+        "CLT": "13.1.0.0.1.1633545042",
         "Xcode": "13.1",
         "macOS": "12.0.1"
       }
