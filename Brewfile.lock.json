@@ -1716,7 +1716,7 @@
         }
       },
       "postman": {
-        "version": "9.5.0",
+        "version": "9.6.0",
         "options": {
           "full_name": "postman",
           "args": {
@@ -1752,7 +1752,7 @@
         }
       },
       "zoom": {
-        "version": "5.8.6.2879",
+        "version": "5.9.0.3377",
         "options": {
           "full_name": "zoom",
           "args": {
