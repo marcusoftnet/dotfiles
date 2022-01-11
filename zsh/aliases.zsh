@@ -25,3 +25,5 @@ alias go-dnfs="cd ~/Projects/salt/appliedtechnology/dnfs/"
 alias go-dnfs-test-admin="cd ~/Projects/salt/appliedtechnology/dnfs/dnfs-tool-testAdmin/"
 alias go-dnfs-slides="cd ~/Projects/salt/appliedtechnology/dnfs/dnfs-material-slides/"
 alias go-dnfs-docs="cd ~/Projects/salt/appliedtechnology/dnfs/dnfs-material-docs"
+
+alias do-clone-repo="sh ~/Projects/salt/appliedtechnology/salt-material-docs/scripts/cloneRepository.sh"
