@@ -1,4 +1,5 @@
 Brewfile.lock.json
+./Brewfile.lock.json
 
 atom.symlink/.apm
 atom.symlink/.node-gyp
