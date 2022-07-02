@@ -15,7 +15,7 @@ alias go-blog="cd ~/Projects/blog"
 
 alias go-appliedtechnology="cd ~/Projects/salt/appliedtechnology/"
 alias go-docs="cd ~/Projects/salt/appliedtechnology/salt-material-docs"
-alias go-test-admin="cd ~/Projects/salt/appliedtechnology/salt-test-admin"
+alias go-test-admin="cd ~/Projects/salt/appliedtechnology/salt-tool-testAdmin"
 
 alias go-jsfs="cd ~/Projects/salt/appliedtechnology/jsfs/"
 alias go-dnfs="cd ~/Projects/salt/appliedtechnology/dnfs/"
