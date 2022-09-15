@@ -59,3 +59,10 @@ if [ -f '/Users/marcus/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . 
 
 ## Set java export path
 export JAVA_HOME=$(/usr/libexec/java_home -v18)
+
+# bun completions
+[ -s "/Users/marcus/.bun/_bun" ] && source "/Users/marcus/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
