@@ -66,3 +66,9 @@ export JAVA_HOME=$(/usr/libexec/java_home -v18)
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+
+## Set Python to the correct version
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
