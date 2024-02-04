@@ -46,7 +46,6 @@ brew 'wget'
 brew 'youtube-dl'
 
 cask 'alfred'
-cask 'avast-security'
 cask 'azure-data-studio'
 cask 'brave-browser'
 cask 'camtasia'
