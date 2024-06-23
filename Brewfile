@@ -43,7 +43,7 @@ brew 'tldr'
 brew 'telnet'
 brew 'tree'
 brew 'wget'
-brew 'youtube-dl'
+brew 'yt-dlp'
 
 cask 'alfred'
 cask 'azure-data-studio'
