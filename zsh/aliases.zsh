@@ -23,3 +23,5 @@ alias go-jfs="cd ~/Projects/salt/appliedtechnology/jfs/"
 
 alias do-clone-repo="sh ~/Projects/salt/appliedtechnology/salt-material-docs/scripts/cloneRepository.sh"
 alias do-flatten-repo="sh ~/Projects/salt/appliedtechnology/salt-material-docs/scripts/flattenRepoHistory.sh "
+
+alias python=/opt/homebrew/bin/python3
