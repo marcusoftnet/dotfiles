@@ -53,6 +53,7 @@ brew 'bun'
 cask 'alfred'
 cask 'azure-data-studio'
 cask 'camtasia'
+cask "cursor"
 cask 'deckset'
 cask 'docker'
 cask 'dropbox'
