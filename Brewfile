@@ -52,6 +52,7 @@ cask 'camtasia'
 cask "cursor"
 cask 'docker'
 cask 'dropbox'
+cask 'dotnet'
 cask 'font-fira-code'
 cask 'font-inconsolata'
 cask 'fork'
