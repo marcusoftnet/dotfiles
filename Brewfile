@@ -2,7 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'aws/tap'
 tap 'grammarly/tap'
-tap 'oncletom/krew'
+tap 'oncletom/brew'
 
 brew 'p7zip'
 brew 'ack'
