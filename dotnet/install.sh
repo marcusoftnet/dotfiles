@@ -48,9 +48,7 @@ install_dotnet_channel() {
     return
   fi
 
-  if [[ -d "$INSTALL_DIR/sdk/$LATEST_VERSION" ]]; then
-    # echo "✅ $CHANNEL ($LATEST_VERSION) already installed."
-  else
+  if [[ ! -d "$INSTALL_DIR/sdk/$LATEST_VERSION" ]]; then
     remove_old_versions "$LATEST_VERSION"
     echo "⬇️ Installing $CHANNEL SDK ($LATEST_VERSION)..."
     curl -sSL "$SCRIPT_URL" | bash -s -- \
@@ -60,7 +58,7 @@ install_dotnet_channel() {
       > /dev/null
 
     xattr -dr com.apple.quarantine "$INSTALL_DIR"
-    # echo "✅ Installed $CHANNEL SDK ($LATEST_VERSION)."
+    echo "✅ Installed new .NET $CHANNEL SDK ($LATEST_VERSION)."
   fi
 }
 
@@ -69,6 +67,4 @@ for CHANNEL in "${CHANNELS[@]}"; do
   install_dotnet_channel "$CHANNEL"
 done
 
-# echo ""
-# echo "📦 Installed SDKs:"
-# dotnet --list-sdks
+echo "🔄 Updating .NET SDKs"
