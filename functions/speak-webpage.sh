@@ -11,4 +11,4 @@ echo "Fetching and processing webpage..."
 TEXT=$(curl -Ls "$URL" | lynx -stdin -dump -nolist | iconv -f utf-8 -t utf-8 -c)
 
 echo "Speaking..."
-say "$TEXT"
+say -v Agnes "$TEXT"
