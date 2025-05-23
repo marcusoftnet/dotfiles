@@ -66,5 +66,3 @@ install_dotnet_channel() {
 for CHANNEL in "${CHANNELS[@]}"; do
   install_dotnet_channel "$CHANNEL"
 done
-
-echo "🔄 Updating .NET SDKs"
