@@ -46,8 +46,9 @@ brew 'yt-dlp'
 
 cask 'alfred'
 cask 'azure-data-studio'
+cask 'browserosaurus'
 cask 'camtasia'
-cask "cursor"
+cask 'cursor'
 cask 'docker'
 cask 'dropbox'
 cask 'font-fira-code'
