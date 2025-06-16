@@ -13,13 +13,12 @@ $ZSH/macos/set-defaults.sh
 $ZSH/homebrew/install.sh 2>&1
 
 
-
 # Upgrade homebrew
-echo "› brew update"
-brew upgrade
-brew update
-brew cleanup
+echo "› brew upgrade, update and cleanup"
+brew upgrade --quiet
+brew update --quiet
+brew cleanup --quiet
 
 # Install software
-echo "› $ZSH/script/install"
+echo "› running installers"
 $ZSH/script/install
