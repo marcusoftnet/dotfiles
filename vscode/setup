@@ -1,6 +1,5 @@
 #!/bin/sh
-# Setup a machine for VS Code development
-# This script symlinks the VS Code settings, keybindings, and snippets from the dotfiles
+# Setup a machine for Sublime Text 3
 set -x
 
 # symlink settings in
