@@ -1,0 +1,1 @@
+alias fabric='fabric-ai'
