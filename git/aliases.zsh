@@ -15,3 +15,4 @@ alias gs='git status -sb'
 alias gac='git add -A && git commit -m'
 alias gaca='git add -A && git commit --amend --no-edit'
 alias gstatusall="find . -name .git -type d -prune -exec sh -c '(cd {}/.. && echo {} && git status -s && echo)' \;"
+alias grmb="git branch | grep -v "main" | xargs git branch -D"
