@@ -43,6 +43,7 @@ brew 'spark'
 brew 'tlrc'
 brew 'telnet'
 brew 'tree'
+brew 'watch'
 brew 'wget'
 brew 'yt-dlp'
 
