@@ -49,7 +49,6 @@ brew 'wget'
 brew 'yt-dlp'
 
 cask 'alfred'
-cask 'azure-data-studio'
 cask 'camtasia'
 cask 'cursor'
 cask 'dropbox'
