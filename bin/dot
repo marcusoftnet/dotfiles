@@ -32,16 +32,16 @@ if [[ -n "$CLEANUP_OUTPUT" ]]; then
   echo
   echo "$CLEANUP_OUTPUT"
   echo
-  read -rp "› Do you want to uninstall these? (y/N): " answer
+  read -rp "  ›Do you want to uninstall these? (y/N): " answer
   case "$answer" in
     [Yy]*)
-      echo "› Uninstalling..."
+      echo "  › Uninstalling..."
       brew bundle cleanup --file="$BREWFILE" --force
       ;;
     *)
-      echo "› Aborted. Nothing removed."
+      echo "  › Aborted. Nothing removed."
       ;;
   esac
 else
-  echo "› Nothing to clean up. Your system matches the Brewfile."
+  echo "  › Nothing to clean up. Your system matches the Brewfile."
 fi
