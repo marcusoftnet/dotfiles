@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 #
 # dot
 #
@@ -12,7 +12,6 @@ $ZSH/macos/set-defaults.sh
 # Install homebrew
 $ZSH/homebrew/install.sh 2>&1
 
-
 # Upgrade homebrew
 echo "› brew upgrade, update and cleanup"
 brew upgrade --quiet
@@ -22,3 +21,27 @@ brew cleanup --quiet
 # Install software
 echo "› running installers"
 $ZSH/script/install
+
+echo "› comparing installation to Brewfile"
+BREWFILE="./Brewfile"
+# Get the list of things that would be removed
+CLEANUP_OUTPUT=$(brew bundle cleanup --file="$BREWFILE" 2>&1)
+
+if [[ -n "$CLEANUP_OUTPUT" ]]; then
+  echo "› The following items are installed but NOT in $BREWFILE:"
+  echo
+  echo "$CLEANUP_OUTPUT"
+  echo
+  read -rp "› Do you want to uninstall these? (y/N): " answer
+  case "$answer" in
+    [Yy]*)
+      echo "› Uninstalling..."
+      brew bundle cleanup --file="$BREWFILE" --force
+      ;;
+    *)
+      echo "› Aborted. Nothing removed."
+      ;;
+  esac
+else
+  echo "› Nothing to clean up. Your system matches the Brewfile."
+fi
