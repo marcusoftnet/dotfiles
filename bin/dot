@@ -23,7 +23,7 @@ echo "› running installers"
 $ZSH/script/install
 
 echo "› comparing installation to Brewfile"
-BREWFILE="./Brewfile"
+BREWFILE="~/.dotfiles/Brewfile"
 # Get the list of things that would be removed
 CLEANUP_OUTPUT=$(brew bundle cleanup --file="$BREWFILE" 2>&1)
 
@@ -43,5 +43,5 @@ if [[ -n "$CLEANUP_OUTPUT" ]]; then
       ;;
   esac
 else
-  echo "  › Nothing to clean up. Your system matches the Brewfile."
+  echo "  › Nothing to clean up. Your system matches $BREWFILE."
 fi
