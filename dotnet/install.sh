@@ -3,7 +3,7 @@
 INSTALL_DIR="$HOME/.dotnet"
 ARCH="arm64"
 SCRIPT_URL="https://dot.net/v1/dotnet-install.sh"
-CHANNELS=("6.0" "8.0" "9.0")
+CHANNELS=("8.0" "9.0" "10.0")
 
 # Add to path for script execution
 export DOTNET_ROOT="$INSTALL_DIR"
