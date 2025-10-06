@@ -15,7 +15,13 @@ mkdir -p "$INSTALL_DIR"
 # Function: get latest version from a channel using dry-run
 get_latest_version() {
   local CHANNEL=$1
-  curl -sSL "$SCRIPT_URL" | bash -s -- --channel "$CHANNEL" --dry-run --install-dir "$INSTALL_DIR" --arch "$ARCH" 2>/dev/null | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1
+
+  # include optional prerelease/build metadata (e.g. 10.0.100-rc.1.25451.107)
+  local output
+  output=$(curl -sSL "$SCRIPT_URL" | bash -s -- --channel "$CHANNEL" --dry-run --install-dir "$INSTALL_DIR" --arch "$ARCH" 2>/dev/null)
+
+  # Use C locale to avoid "invalid character range" errors and a POSIX-safe character class
+  echo "$output" | LC_ALL=C grep -oE '[0-9]+\.[0-9]+\.[0-9]+([-+][[:alnum:].-]+)?' | head -n 1
 }
 
 # Function: remove older SDKs from same major version
@@ -41,25 +47,31 @@ remove_old_versions() {
 # Function: install latest SDK from a channel
 install_dotnet_channel() {
   local CHANNEL=$1
-  local LATEST_VERSION=$(get_latest_version "$CHANNEL")
+  local LATEST_VERSION
+  LATEST_VERSION=$(get_latest_version "$CHANNEL")
 
   if [[ -z "$LATEST_VERSION" ]]; then
     echo "❌ Could not determine latest version for $CHANNEL"
     return
   fi
 
-  if [[ ! -d "$INSTALL_DIR/sdk/$LATEST_VERSION" ]]; then
-    remove_old_versions "$LATEST_VERSION"
-    echo "⬇️ Installing $CHANNEL SDK ($LATEST_VERSION)..."
-    curl -sSL "$SCRIPT_URL" | bash -s -- \
-      --channel "$CHANNEL" \
-      --install-dir "$INSTALL_DIR" \
-      --arch "$ARCH" \
-      > /dev/null
+  echo "🔎 Detected latest $CHANNEL SDK version: $LATEST_VERSION"
 
-    xattr -dr com.apple.quarantine "$INSTALL_DIR"
-    echo "✅ Installed new .NET $CHANNEL SDK ($LATEST_VERSION)."
+  if [[ -d "$INSTALL_DIR/sdk/$LATEST_VERSION" ]]; then
+    echo "✔️ $LATEST_VERSION already installed for channel $CHANNEL — skipping."
+    return
   fi
+
+  remove_old_versions "$LATEST_VERSION"
+  echo "⬇️ Installing $CHANNEL SDK ($LATEST_VERSION)..."
+  curl -sSL "$SCRIPT_URL" | bash -s -- \
+    --channel "$CHANNEL" \
+    --install-dir "$INSTALL_DIR" \
+    --arch "$ARCH" \
+    > /dev/null
+
+  xattr -dr com.apple.quarantine "$INSTALL_DIR"
+  echo "✅ Installed new .NET $CHANNEL SDK ($LATEST_VERSION)."
 }
 
 # Main loop
