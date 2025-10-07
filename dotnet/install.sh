@@ -30,14 +30,14 @@ remove_old_versions() {
   local MAJOR=$(echo "$VERSION" | cut -d. -f1)
   local KEEP_VERSION=$VERSION
 
-  echo "🧹 Checking for SDKs with major version $MAJOR to clean up (except $KEEP_VERSION)..."
+  echo "  🧹 Checking for SDKs with major version $MAJOR to clean up (except $KEEP_VERSION)..."
 
   for sdk in "$INSTALL_DIR/sdk"/*; do
     if [[ -d "$sdk" ]]; then
       sdk_version=$(basename "$sdk")
       sdk_major=$(echo "$sdk_version" | cut -d. -f1)
       if [[ "$sdk_major" == "$MAJOR" && "$sdk_version" != "$KEEP_VERSION" ]]; then
-        echo "🗑 Removing $sdk_version"
+        echo "  🗑 Removing $sdk_version"
         rm -rf "$sdk"
       fi
     fi
@@ -51,19 +51,19 @@ install_dotnet_channel() {
   LATEST_VERSION=$(get_latest_version "$CHANNEL")
 
   if [[ -z "$LATEST_VERSION" ]]; then
-    echo "❌ Could not determine latest version for $CHANNEL"
+    echo "  ❌ Could not determine latest version for $CHANNEL"
     return
   fi
 
-  echo "🔎 Detected latest $CHANNEL SDK version: $LATEST_VERSION"
+  echo "  🔎 Detected latest $CHANNEL SDK version: $LATEST_VERSION"
 
   if [[ -d "$INSTALL_DIR/sdk/$LATEST_VERSION" ]]; then
-    echo "✔️ $LATEST_VERSION already installed for channel $CHANNEL — skipping."
+    echo "  ✔️ $LATEST_VERSION already installed for channel $CHANNEL — skipping."
     return
   fi
 
   remove_old_versions "$LATEST_VERSION"
-  echo "⬇️ Installing $CHANNEL SDK ($LATEST_VERSION)..."
+  echo "  ⬇️ Installing $CHANNEL SDK ($LATEST_VERSION)..."
   curl -sSL "$SCRIPT_URL" | bash -s -- \
     --channel "$CHANNEL" \
     --install-dir "$INSTALL_DIR" \
@@ -71,10 +71,11 @@ install_dotnet_channel() {
     > /dev/null
 
   xattr -dr com.apple.quarantine "$INSTALL_DIR"
-  echo "✅ Installed new .NET $CHANNEL SDK ($LATEST_VERSION)."
+  echo "  ✅ Installed new .NET $CHANNEL SDK ($LATEST_VERSION)."
 }
 
 # Main loop
+echo "🚀 Updating .NET SDK installation..."
 for CHANNEL in "${CHANNELS[@]}"; do
   install_dotnet_channel "$CHANNEL"
 done
