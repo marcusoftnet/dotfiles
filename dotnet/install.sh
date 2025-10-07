@@ -75,7 +75,7 @@ install_dotnet_channel() {
 }
 
 # Main loop
-echo "🚀 Updating .NET SDK installation..."
+echo "› Updating .NET SDK installation..."
 for CHANNEL in "${CHANNELS[@]}"; do
   install_dotnet_channel "$CHANNEL"
 done
