@@ -55,10 +55,9 @@ install_dotnet_channel() {
     return
   fi
 
-  echo "  🔎 Detected latest $CHANNEL SDK version: $LATEST_VERSION"
-
+  # echo "  🔎 Detected latest $CHANNEL SDK version: $LATEST_VERSION"
   if [[ -d "$INSTALL_DIR/sdk/$LATEST_VERSION" ]]; then
-    echo "  ✔️ $LATEST_VERSION already installed for channel $CHANNEL — skipping."
+    # echo "  ✔️ $LATEST_VERSION already installed for channel $CHANNEL — skipping."
     return
   fi
 
@@ -75,7 +74,7 @@ install_dotnet_channel() {
 }
 
 # Main loop
-echo "› Updating .NET SDK installation..."
+echo "› updating .NET SDKs..."
 for CHANNEL in "${CHANNELS[@]}"; do
   install_dotnet_channel "$CHANNEL"
 done
