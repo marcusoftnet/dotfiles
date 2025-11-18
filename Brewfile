@@ -53,6 +53,7 @@ brew 'wget'
 brew 'yt-dlp'
 
 cask 'alfred'
+cask 'autodesk-fusion'
 cask 'camtasia'
 cask 'cursor'
 cask 'docker-desktop'
@@ -82,3 +83,4 @@ cask 'vlc'
 cask 'windsurf'
 cask 'zed'
 cask 'zoom'
+
