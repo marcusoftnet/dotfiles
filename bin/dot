@@ -14,8 +14,8 @@ $ZSH/homebrew/install.sh 2>&1
 
 # Upgrade homebrew
 echo "› brew upgrade, update and cleanup"
-brew upgrade --quiet
 brew update --quiet
+brew upgrade --quiet
 brew cleanup --quiet
 
 # Install software
