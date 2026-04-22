@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Read(//Users/marcushammarberg/.claude/projects/**)",
-      "Bash(go install *)"
+      "Bash(go install *)",
+      "Read(//Users/marcushammarberg/Projects/go/bin/**)"
     ]
   }
 }
