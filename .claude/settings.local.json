@@ -3,7 +3,16 @@
     "allow": [
       "Read(//Users/marcushammarberg/.claude/projects/**)",
       "Bash(go install *)",
-      "Read(//Users/marcushammarberg/Projects/go/bin/**)"
+      "Read(//Users/marcushammarberg/Projects/go/bin/**)",
+      "Bash(grep -rn '\\\\$ZSH\\\\b\\\\|\\\\${ZSH}' /Users/marcushammarberg/.dotfiles '--include=*.zsh' '--include=*.symlink' '--include=*.sh' --include=bootstrap --include=dot --include=install)",
+      "Bash(zsh -c 'typeset -U cf; cf=\\(./**/*.zsh\\); printf \"%s\\\\n\" $cf')",
+      "Bash(brew search *)",
+      "Bash(chmod +x /Users/marcushammarberg/.dotfiles/oh-my-zsh/install.sh)",
+      "Bash(/Users/marcushammarberg/.dotfiles/oh-my-zsh/install.sh)",
+      "Bash(/Users/marcushammarberg/.dotfiles/oh-my-zsh/install.sh; echo *)",
+      "Read(//Users/marcushammarberg/.oh-my-zsh/themes/**)",
+      "Bash(zsh -i -c 'echo \"PROMPT=$PROMPT\"; echo \"ZSH=$ZSH\"; echo \"DOTFILES=$DOTFILES\"; echo \"ZSH_THEME=$ZSH_THEME\"')",
+      "Bash(zsh -i -c 'git wtf 2>&1 | head -3')"
     ]
   }
 }
