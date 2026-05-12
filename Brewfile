@@ -81,5 +81,4 @@ cask 'transmission'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'zed'
-cask 'zoom'
 
