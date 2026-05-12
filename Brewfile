@@ -56,7 +56,6 @@ brew 'wget'
 brew 'yt-dlp'
 
 cask 'alfred'
-cask 'cursor'
 cask 'claude'
 cask 'docker-desktop'
 cask 'dropbox'
