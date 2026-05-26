@@ -12,7 +12,7 @@ OMZ_DIR="$HOME/.oh-my-zsh"
 echo "› updating oh-my-zsh"
 
 if [ -d "$OMZ_DIR" ]; then
-  echo "  - oh-my-zsh already installed at $OMZ_DIR — skipping."
+  # echo "  - oh-my-zsh already installed at $OMZ_DIR — skipping."
   exit 0
 fi
 
