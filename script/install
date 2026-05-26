@@ -7,7 +7,7 @@ set -e
 cd "$(dirname $0)"/..
 
 # Run Homebrew through the Brewfile
-echo "› update brews and casks"
+echo "› updating brews and casks"
 brew bundle --quiet
 
 # find the installers and run them iteratively
