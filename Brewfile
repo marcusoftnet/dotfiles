@@ -1,7 +1,5 @@
 cask_args appdir: '/Applications'
 
-tap 'grammarly/tap'
-
 brew 'ack'
 brew 'act'
 brew 'awscli'
@@ -51,7 +49,6 @@ brew 'tlrc'
 brew 'tmux'
 brew 'tree'
 brew 'uv'
-brew 'Veirt/veirt/weathr'
 brew 'watch'
 brew 'wget'
 brew 'yt-dlp'
