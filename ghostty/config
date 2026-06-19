@@ -1,0 +1,25 @@
+# Ghostty configuration
+#
+# Symlinked to ~/.config/ghostty/config by ghostty/install.sh.
+# Reference: https://ghostty.org/docs/config/reference
+
+# Font (Pro profile used Fira Code Bold @ 18; installed via Brewfile's font-fira-code)
+font-family = "Fira Code"
+font-style = Bold
+font-size = 18
+
+# Window transparency (your bg alpha was ~0.81)
+background-opacity = 0.81
+
+# Core colors (converted from Display P3 -> sRGB)
+background = #3c3a47
+foreground = #f1f1f1
+bold-color = #ffffff
+cursor-color = #b39e2e
+selection-background = #6e3a1f
+selection-foreground = #ffffff
+
+# Optional starting point. Ghostty loads the theme first, so every explicit
+# color set above overrides it regardless of order. Delete this line to fall
+# back entirely to the colors above.
+theme = Builtin Solarized Dark
