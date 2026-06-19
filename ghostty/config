@@ -18,8 +18,3 @@ bold-color = #ffffff
 cursor-color = #b39e2e
 selection-background = #6e3a1f
 selection-foreground = #ffffff
-
-# Optional starting point. Ghostty loads the theme first, so every explicit
-# color set above overrides it regardless of order. Delete this line to fall
-# back entirely to the colors above.
-theme = Builtin Solarized Dark
