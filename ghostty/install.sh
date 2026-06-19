@@ -17,4 +17,3 @@ CONFIG_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/ghostty"
 mkdir -p "$CONFIG_DIR"
 ln -sf "$SOURCE_DIR/config" "$CONFIG_DIR/config"
 
-echo "✅ Linked Ghostty config → $CONFIG_DIR/config"
