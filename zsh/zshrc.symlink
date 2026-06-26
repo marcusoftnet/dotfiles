@@ -49,8 +49,6 @@ zle -N down-line-or-beginning-search
 bindkey "^[[A" up-line-or-beginning-search # Up
 bindkey "^[[B" down-line-or-beginning-search # Down
 
-plugins=(...osx terminalapp)
-
 # The next lines  updates PATH and enbable command completion for the Google Cloud SDK.
 if [ -f '/Users/marcus/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/marcus/Downloads/google-cloud-sdk/path.zsh.inc'; fi
 if [ -f '/Users/marcus/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/marcus/Downloads/google-cloud-sdk/completion.zsh.inc'; fi

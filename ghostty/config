@@ -15,6 +15,12 @@ background-opacity = 0.81
 background = #3c3a47
 foreground = #f1f1f1
 bold-color = #ffffff
-cursor-color = #b39e2e
 selection-background = #6e3a1f
 selection-foreground = #ffffff
+
+# Cursor — bright and saturated so it pops against the transparent bg
+cursor-color = #ffcc00
+cursor-text = #1a1a1a
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
