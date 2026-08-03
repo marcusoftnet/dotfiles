@@ -10,5 +10,5 @@ if command -v pnpm > /dev/null
 then
   cd "$(dirname "$0")"
   pnpm completion zsh > pnpm-completion.sh
-  echo "✅ Regenerated pnpm zsh completion."
+  echo "› Regenerated pnpm zsh completion."
 fi
