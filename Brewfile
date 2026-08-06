@@ -80,5 +80,6 @@ cask 'temurin'
 cask 'transmission'
 cask 'visual-studio-code'
 cask 'vlc'
+cask 'yoink'
 cask 'zed'
 
