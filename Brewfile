@@ -54,6 +54,7 @@ brew 'wget'
 brew 'yt-dlp'
 
 cask 'alfred'
+cask 'audio-hijack'
 cask 'claude'
 cask 'conductor'
 cask 'docker-desktop'
