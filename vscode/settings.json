@@ -1385,10 +1385,6 @@
   "git.confirmSync": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "svelte.enable-ts-plugin": true,
-  "azureResourceManagerTools.parameterFiles": {
-    "/Users/marcus/01-storage.json": "01-storage.parameters.json",
-    "/Users/marcus/temp/SuperHeroAPI/azuredeploy.json": "azuredeploy.parameters.json"
-  },
   "npm.keybindingsChangedWarningShown": true,
   "markdown.marp.html": "all",
   "markdown.marp.pdf.noteAnnotations": true,
@@ -1401,7 +1397,6 @@
     "**/.metals": true,
     "**/.ammonite": true
   },
-  "metals.javaHome": "/Users/marcus/.jabba/jdk/openjdk@1.17.0/Contents/Home",
   "liveServer.settings.donotVerifyTags": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "[python]": {
@@ -1412,14 +1407,8 @@
   },
   "dotnet.completion.showCompletionItemsFromUnimportedNamespaces": true,
   "workbench.editor.empty.hint": "hidden",
-  "python.defaultInterpreterPath": "/Users/marcus/Projects/langchain-projects/scling-parser/sclingparser",
   "update.showReleaseNotes": false,
   "files.autoSave": "afterDelay",
-  "vs-kubernetes": {
-    "vscode-kubernetes.helm-path-windows": "C:\\Users\\marcus.hammarberg\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
-    "vscode-kubernetes.kubectl-path-windows": "C:\\Users\\marcus.hammarberg\\.vs-kubernetes\\tools\\kubectl\\kubectl.exe",
-    "vscode-kubernetes.minikube-path-windows": "C:\\Users\\marcus.hammarberg\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
-  },
   "workbench.sideBar.location": "right",
   "mssql.enableRichExperiences": true,
   "git.autofetch": true,
