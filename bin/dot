@@ -6,6 +6,12 @@
 # to make sure you're on the latest and greatest.
 export DOTFILES=$HOME/.dotfiles
 
+# Homebrew 6 enables "ask mode" (HOMEBREW_ASK) by default, which prompts before
+# upgrading. Opt out properly instead of flooding brew's stdin with `yes`.
+export HOMEBREW_NO_ASK=1
+# Skip brew's trailing "hide these hints with..." blocks.
+export HOMEBREW_NO_ENV_HINTS=1
+
 # Set macOS defaults
 $DOTFILES/macos/set-defaults.sh
 
@@ -28,7 +34,7 @@ fi
 # Upgrade homebrew
 echo "› brew upgrade, update and cleanup"
 brew update --quiet
-yes | brew upgrade --quiet
+brew upgrade --quiet
 brew cleanup --quiet
 
 # Install software
