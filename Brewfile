@@ -83,4 +83,5 @@ cask 'visual-studio-code'
 cask 'vlc'
 cask 'yoink'
 cask 'zed'
+cask 'zoom'
 
