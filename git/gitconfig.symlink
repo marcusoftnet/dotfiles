@@ -44,3 +44,5 @@
 	helper = !/opt/homebrew/bin/gh auth git-credential
 [pager]
 	branch = false
+[user]
+	email = 224973862+marcus-hammarberg@users.noreply.github.com

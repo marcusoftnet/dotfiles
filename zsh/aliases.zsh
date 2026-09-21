@@ -13,7 +13,7 @@ alias ......="cd ../../../../.."
 alias go-projects="cd ~/Projects/"
 alias go-blog="cd ~/Projects/blog"
 
-alias go-frankly="cd ~/Projects/eidra/frankly"
+alias go-statsinator="cd ~/Projects/umain/statsinator"
 
 alias do-clone-repo="sh ~/Projects/salt/appliedtechnology/salt-material-docs/scripts/cloneRepository.sh"
 alias do-flatten-repo="sh ~/Projects/salt/appliedtechnology/salt-material-docs/scripts/flattenRepoHistory.sh "
