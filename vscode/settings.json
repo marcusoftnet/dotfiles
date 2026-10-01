@@ -182,6 +182,7 @@
     "Blåsarsymfoniker",
     "Blazor",
     "bleuh",
+    "blipp",
     "blockquotes",
     "Blomberg",
     "BLUÄRK",
@@ -204,7 +205,6 @@
     "BPJS",
     "brainer",
     "Brandan",
-    "blipp",
     "Brassed",
     "Brattberg",
     "Braveheart",
@@ -612,6 +612,7 @@
     "Johansen",
     "Johansson",
     "johncutlefish",
+    "Johnly",
     "Johnno",
     "jonkernpa",
     "Jönköping",
@@ -804,6 +805,7 @@
     "netrc",
     "netsh",
     "Neuri",
+    "Newbiz",
     "newpage",
     "nextjs",
     "Niclas",
@@ -1505,5 +1507,6 @@
     "**/.gitea/workflows/*.yaml",
     "**/.forgejo/workflows/*.yml",
     "**/.forgejo/workflows/*.yaml"
-  ]
+  ],
+  "claudeCode.hideOnboarding": true
 }
