@@ -46,3 +46,7 @@
 	branch = false
 [user]
 	email = 224973862+marcus-hammarberg@users.noreply.github.com
+[includeIf "gitdir:~/Projects/eidra/"]
+	path = /Users/marcushammarberg/.gitconfig-umain
+[includeIf "gitdir:~/Projects/umain/"]
+	path = /Users/marcushammarberg/.gitconfig-umain
