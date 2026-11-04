@@ -54,7 +54,6 @@ brew 'yt-dlp'
 
 cask 'alfred'
 cask 'claude'
-cask 'conductor'
 cask 'docker-desktop'
 cask 'dropbox'
 cask 'font-fira-code'
