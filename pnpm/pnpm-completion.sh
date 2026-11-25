@@ -1,8 +1,10 @@
 #compdef pnpm pn
 ###-begin-pnpm-completion-###
 _pnpm_completion() {
-  local -a reply dirs values
-  reply=("${(@f)$(COMP_CWORD=$((CURRENT-1)) COMP_LINE="$BUFFER" COMP_POINT="$CURSOR" SHELL=zsh pnpm completion-server -- "${words[@]}")}")
+  local -a reply dirs values tokens
+  tokens=("${(@)words[1,CURRENT]}")
+  tokens[-1]="$PREFIX"
+  reply=("${(@f)$(COMP_CWORD=$((CURRENT-1)) COMP_LINE="$BUFFER" COMP_POINT="$CURSOR" SHELL=zsh pnpm completion-server -- "${tokens[@]}")}")
   dirs=(${(M)reply:#*/})
   values=(${reply:#*/})
   if (( ${#dirs} )); then
